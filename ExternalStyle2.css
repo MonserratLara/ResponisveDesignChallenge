@@ -1,0 +1,52 @@
+
+A:link {color: rgb(128, 128, 128)}
+A:visited, A:active {color: black}
+A:hover {text-decoration: overline; color: blueviolet}
+	
+Body {
+	background-color: rgb(255, 255, 255);
+	font-family: cambria;
+	color: teal	
+	}
+
+H1 {font-size: 15pt; text-align: center}
+H2 {font-size: 15pt; text-align: center}
+H3 {font-size: 10pt; text-align: center}
+H4 {text-align: center;font-size: 15pt;}
+H5 {font-size: 15pt}
+
+P {font-size: 15pt; font-family:cursive; text-align: center;}
+
+Table {
+	width: 400px; 
+	align-items: center;
+	font-family: monospace; 
+	color: rgb(255, 255, 255); 
+	background-color: rgb(83, 128, 0);
+	border-color: rgba(104, 100, 26, 0.991);
+	margin: .8em;
+	text-align: center;
+}
+
+
+Form {
+	font-family: monospace; 
+	text-align: center; 
+	color: white; 
+	background-color: rgb(0, 75, 128)}
+
+	
+	
+	
+	
+@media screen and (max-width: 360px) {
+	div{
+		background-color: plum;
+
+	} 
+}
+@media screen and (min-width: 361px) and (max-width: 480px) {
+}
+@media screen and (min-width:481px) and (max-width: 960px) {	
+}
+  
